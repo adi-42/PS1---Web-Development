@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "aditya",
+    "password": "root",
+    "database": "kairos",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "aditya",
+    "password": "root",
+    "database": "kairos",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "aditya",
+    "password": "root",
+    "database": "kairos",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
