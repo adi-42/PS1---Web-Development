@@ -1,0 +1,29 @@
+<body style="background-color:#2e2a24; color:#f9d094;">
+<h1 style="text-align: center; padding-top:30px">Employee/Client Login Page</h1>
+
+<% if(messages.error) { %>
+    <%= messages.error %>
+<% } %>
+
+<title>Kairos : Login</title>
+<form style="text-align: center; padding-top:50px" action="/login" method="POST">
+<div>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
+</div>
+<div>
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" required>
+</div>
+<div style="padding-bottom:10px">
+    <label for="password">Enter Password</label>
+    <input type="password" id="password" name="password" required>
+</div>
+<button type="submit">Login</button>
+</form>
+<div style="text-align: center; padding-top:10px">
+    <button type="submit">
+    <a href="/register">Register as new user</a>
+    </button>
+</div>
+</body>
